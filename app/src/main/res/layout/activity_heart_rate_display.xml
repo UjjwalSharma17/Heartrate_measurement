@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HeartRateDisplay">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:text="Measurement Completed!"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/final_heart_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="0dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="SAVE TO HISTORY"
+        android:background="@drawable/button_style"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/heart_rate_progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:text="bpm"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/final_heart_rate" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="29dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="83dp"
+        app:layout_constraintStart_toEndOf="@+id/final_heart_rate"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heartsmall" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="355dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart_beat_image" />
+
+</android.support.constraint.ConstraintLayout>

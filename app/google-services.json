@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "700722407217",
+    "firebase_url": "https://btp-application.firebaseio.com",
+    "project_id": "btp-application",
+    "storage_bucket": "btp-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700722407217:android:b3ef5adbf5e0fe3b",
+        "android_client_info": {
+          "package_name": "com.example.hp.cameracv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700722407217-94elgjhoqce9mkv30eoblh49jud1spml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.cameracv2",
+            "certificate_hash": "cf5d396e49cb011c4735d1306cacbee0cea624cf"
+          }
+        },
+        {
+          "client_id": "700722407217-von52c9ms1l9s8hjjh3cfum246peaq76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrkKklQ6le3-_pRQe_MfG655McshhlGhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700722407217-von52c9ms1l9s8hjjh3cfum246peaq76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
